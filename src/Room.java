@@ -27,5 +27,10 @@ public abstract class Room {
 	public void setDesc(String desc) {
 		this.desc = desc;
 	}
-
+	
+	//creating this response method to be overridden by the other rooms
+	public String response(){
+		String choice = null;
+		return choice;
+	}
 }
