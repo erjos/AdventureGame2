@@ -29,8 +29,6 @@ public abstract class Room {
 	}
 	
 	//creating this response method to be overridden by the other rooms
-	public String response(){
-		String choice = null;
-		return choice;
+	public void response(){
 	}
 }

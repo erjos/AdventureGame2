@@ -18,8 +18,7 @@ public class GameApp {
 		
 		r1 = new ChoiceRoom("Start", "It's a Friday night in Detroit.You've had a long week at work and you're not sure what the night holds.", 
 				"What do you want to do? (Leave / Stay): ", "Leave", "Stay", r2, r3);
-				
-		//need to cast r1 as a ChoiceRoom in order to call  the response() method
-		r2.response();
+		
+		r1.response();
 	}
 }
