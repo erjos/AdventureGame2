@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class RestartRoom extends Room{
 	
 	//making this variable static
-	private ChoiceRoom restart = null;
+	private ChoiceRoom restart;
 
 	public RestartRoom(String name, String desc, ChoiceRoom restart) {
 		//in this case the description tells you how / why you died
